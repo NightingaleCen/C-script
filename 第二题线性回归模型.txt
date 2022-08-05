@@ -7,7 +7,7 @@ Dep. Variable:                      y   R-squared:                       0.976
 Model:                            OLS   Adj. R-squared:                  0.973
 Method:                 Least Squares   F-statistic:                     441.5
 Date:                Fri, 05 Aug 2022   Prob (F-statistic):           1.75e-18
-Time:                        17:56:38   Log-Likelihood:                 29.914
+Time:                        18:45:36   Log-Likelihood:                 29.914
 No. Observations:                  25   AIC:                            -53.83
 Df Residuals:                      22   BIC:                            -50.17
 Df Model:                           2                                         
@@ -38,7 +38,7 @@ Dep. Variable:                      y   R-squared:                       0.872
 Model:                            OLS   Adj. R-squared:                  0.861
 Method:                 Least Squares   F-statistic:                     75.17
 Date:                Fri, 05 Aug 2022   Prob (F-statistic):           1.47e-10
-Time:                        17:56:38   Log-Likelihood:                -3.6222
+Time:                        18:45:36   Log-Likelihood:                -3.6222
 No. Observations:                  25   AIC:                             13.24
 Df Residuals:                      22   BIC:                             16.90
 Df Model:                           2                                         
@@ -69,7 +69,7 @@ Dep. Variable:                      y   R-squared:                       0.271
 Model:                            OLS   Adj. R-squared:                  0.205
 Method:                 Least Squares   F-statistic:                     4.099
 Date:                Fri, 05 Aug 2022   Prob (F-statistic):             0.0307
-Time:                        17:56:38   Log-Likelihood:                -35.933
+Time:                        18:45:36   Log-Likelihood:                -35.933
 No. Observations:                  25   AIC:                             77.87
 Df Residuals:                      22   BIC:                             81.52
 Df Model:                           2                                         
