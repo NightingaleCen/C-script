@@ -6,8 +6,8 @@ y1的完全二次回归模型分析如下：
 Dep. Variable:                      y   R-squared:                       1.000
 Model:                            OLS   Adj. R-squared:                  1.000
 Method:                 Least Squares   F-statistic:                 5.165e+04
-Date:                Fri, 05 Aug 2022   Prob (F-statistic):           1.44e-38
-Time:                        18:45:36   Log-Likelihood:                 102.42
+Date:                Sat, 06 Aug 2022   Prob (F-statistic):           1.44e-38
+Time:                        02:44:23   Log-Likelihood:                 102.42
 No. Observations:                  25   AIC:                            -192.8
 Df Residuals:                      19   BIC:                            -185.5
 Df Model:                           5                                         
@@ -40,8 +40,8 @@ y2的完全二次回归模型分析如下：
 Dep. Variable:                      y   R-squared:                       0.965
 Model:                            OLS   Adj. R-squared:                  0.956
 Method:                 Least Squares   F-statistic:                     106.1
-Date:                Fri, 05 Aug 2022   Prob (F-statistic):           3.31e-13
-Time:                        18:45:36   Log-Likelihood:                 12.706
+Date:                Sat, 06 Aug 2022   Prob (F-statistic):           3.31e-13
+Time:                        02:44:23   Log-Likelihood:                 12.706
 No. Observations:                  25   AIC:                            -13.41
 Df Residuals:                      19   BIC:                            -6.100
 Df Model:                           5                                         
@@ -74,8 +74,8 @@ y3的完全二次回归模型分析如下：
 Dep. Variable:                      y   R-squared:                       0.989
 Model:                            OLS   Adj. R-squared:                  0.987
 Method:                 Least Squares   F-statistic:                     354.4
-Date:                Fri, 05 Aug 2022   Prob (F-statistic):           4.58e-18
-Time:                        18:45:36   Log-Likelihood:                 16.932
+Date:                Sat, 06 Aug 2022   Prob (F-statistic):           4.58e-18
+Time:                        02:44:23   Log-Likelihood:                 16.932
 No. Observations:                  25   AIC:                            -21.86
 Df Residuals:                      19   BIC:                            -14.55
 Df Model:                           5                                         
