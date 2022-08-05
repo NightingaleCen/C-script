@@ -1,0 +1,104 @@
+x1:接收距离(cm), x2:热风速度(r/min)
+y1:厚度mm, y2:孔隙率（%）, y3:压缩回弹性率（%）
+y1的完全二次回归模型分析如下：
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       1.000
+Model:                            OLS   Adj. R-squared:                  1.000
+Method:                 Least Squares   F-statistic:                 5.165e+04
+Date:                Fri, 05 Aug 2022   Prob (F-statistic):           1.44e-38
+Time:                        17:56:38   Log-Likelihood:                 102.42
+No. Observations:                  25   AIC:                            -192.8
+Df Residuals:                      19   BIC:                            -185.5
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     -2.9791      0.064    -46.530      0.000      -3.113      -2.845
+x1            -0.0193      0.002    -11.910      0.000      -0.023      -0.016
+x2             0.0083      0.000     72.893      0.000       0.008       0.009
+x1:x2       6.253e-06   9.23e-07      6.774      0.000    4.32e-06    8.18e-06
+I(x1 ** 2)     0.0011   2.21e-05     50.778      0.000       0.001       0.001
+I(x2 ** 2) -3.325e-06   5.52e-08    -60.285      0.000   -3.44e-06   -3.21e-06
+==============================================================================
+Omnibus:                        0.399   Durbin-Watson:                   2.292
+Prob(Omnibus):                  0.819   Jarque-Bera (JB):                0.538
+Skew:                           0.095   Prob(JB):                        0.764
+Kurtosis:                       2.307   Cond. No.                     7.35e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.35e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+其残差方差为2.1298219738298627e-05
+其均方误差（MSE）为1.0999539205221938
+y2的完全二次回归模型分析如下：
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.965
+Model:                            OLS   Adj. R-squared:                  0.956
+Method:                 Least Squares   F-statistic:                     106.1
+Date:                Fri, 05 Aug 2022   Prob (F-statistic):           3.31e-13
+Time:                        17:56:38   Log-Likelihood:                 12.706
+No. Observations:                  25   AIC:                            -13.41
+Df Residuals:                      19   BIC:                            -6.100
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     75.0643      2.316     32.406      0.000      70.216      79.913
+x1             0.3520      0.059      6.009      0.000       0.229       0.475
+x2             0.0260      0.004      6.320      0.000       0.017       0.035
+x1:x2         -0.0002   3.34e-05     -5.251      0.000      -0.000      -0.000
+I(x1 ** 2)    -0.0015      0.001     -1.931      0.068      -0.003       0.000
+I(x2 ** 2) -8.891e-06      2e-06     -4.455      0.000   -1.31e-05   -4.71e-06
+==============================================================================
+Omnibus:                        3.156   Durbin-Watson:                   2.187
+Prob(Omnibus):                  0.206   Jarque-Bera (JB):                1.389
+Skew:                          -0.126   Prob(JB):                        0.499
+Kurtosis:                       1.873   Cond. No.                     7.35e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.35e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+其残差方差为0.02787682548392013
+其均方误差（MSE）为2.958281516722576
+y3的完全二次回归模型分析如下：
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                      y   R-squared:                       0.989
+Model:                            OLS   Adj. R-squared:                  0.987
+Method:                 Least Squares   F-statistic:                     354.4
+Date:                Fri, 05 Aug 2022   Prob (F-statistic):           4.58e-18
+Time:                        17:56:38   Log-Likelihood:                 16.932
+No. Observations:                  25   AIC:                            -21.86
+Df Residuals:                      19   BIC:                            -14.55
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     43.9577      1.956     22.471      0.000      39.863      48.052
+x1             1.1539      0.049     23.325      0.000       1.050       1.257
+x2             0.0588      0.003     16.893      0.000       0.052       0.066
+x1:x2       2.066e-05   2.82e-05      0.733      0.473   -3.84e-05    7.97e-05
+I(x1 ** 2)    -0.0207      0.001    -30.740      0.000      -0.022      -0.019
+I(x2 ** 2) -3.108e-05   1.69e-06    -18.442      0.000   -3.46e-05   -2.76e-05
+==============================================================================
+Omnibus:                        1.325   Durbin-Watson:                   2.335
+Prob(Omnibus):                  0.516   Jarque-Bera (JB):                0.353
+Skew:                          -0.188   Prob(JB):                        0.838
+Kurtosis:                       3.445   Cond. No.                     7.35e+07
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 7.35e+07. This might indicate that there are
+strong multicollinearity or other numerical problems.
+其残差方差为0.01988131844133877
+其均方误差（MSE）为7.045075345866462
