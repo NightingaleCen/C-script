@@ -7,7 +7,7 @@ Dep. Variable:                     x2   R-squared:                       0.890
 Model:                            OLS   Adj. R-squared:                  0.887
 Method:                 Least Squares   F-statistic:                     290.7
 Date:                Sat, 06 Aug 2022   Prob (F-statistic):           3.30e-35
-Time:                        02:44:24   Log-Likelihood:                -8.3507
+Time:                        18:23:12   Log-Likelihood:                -8.3507
 No. Observations:                  75   AIC:                             22.70
 Df Residuals:                      72   BIC:                             29.65
 Df Model:                           2                                         
@@ -36,7 +36,7 @@ Dep. Variable:                     x2   R-squared:                       0.805
 Model:                            OLS   Adj. R-squared:                  0.802
 Method:                 Least Squares   F-statistic:                     300.5
 Date:                Sat, 06 Aug 2022   Prob (F-statistic):           1.37e-27
-Time:                        02:44:24   Log-Likelihood:                -29.838
+Time:                        18:23:12   Log-Likelihood:                -29.838
 No. Observations:                  75   AIC:                             63.68
 Df Residuals:                      73   BIC:                             68.31
 Df Model:                           1                                         
@@ -64,7 +64,7 @@ Dep. Variable:                     y2   R-squared:                       0.779
 Model:                            OLS   Adj. R-squared:                  0.773
 Method:                 Least Squares   F-statistic:                     127.1
 Date:                Sat, 06 Aug 2022   Prob (F-statistic):           2.40e-24
-Time:                        02:44:24   Log-Likelihood:                -227.55
+Time:                        18:23:12   Log-Likelihood:                -227.55
 No. Observations:                  75   AIC:                             461.1
 Df Residuals:                      72   BIC:                             468.1
 Df Model:                           2                                         
@@ -95,7 +95,7 @@ Dep. Variable:                     y2   R-squared:                       0.622
 Model:                            OLS   Adj. R-squared:                  0.617
 Method:                 Least Squares   F-statistic:                     120.4
 Date:                Sat, 06 Aug 2022   Prob (F-statistic):           4.24e-17
-Time:                        02:44:24   Log-Likelihood:                -247.67
+Time:                        18:23:12   Log-Likelihood:                -247.67
 No. Observations:                  75   AIC:                             499.3
 Df Residuals:                      73   BIC:                             504.0
 Df Model:                           1                                         
