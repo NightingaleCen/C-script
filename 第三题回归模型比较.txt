@@ -1,0 +1,120 @@
+x1:厚度mm, x2:孔隙率（%）
+y2:过滤效率（%）, y3:透气性 mm/s
+以x2为因变量x1为自变量建立的二次模型结果为
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                     x2   R-squared:                       0.890
+Model:                            OLS   Adj. R-squared:                  0.887
+Method:                 Least Squares   F-statistic:                     290.7
+Date:                Sat, 06 Aug 2022   Prob (F-statistic):           3.30e-35
+Time:                        02:44:24   Log-Likelihood:                -8.3507
+No. Observations:                  75   AIC:                             22.70
+Df Residuals:                      72   BIC:                             29.65
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     85.4015      0.878     97.230      0.000      83.651      87.152
+x1             6.5913      0.678      9.724      0.000       5.240       7.943
+I(x1 ** 2)    -0.9558      0.128     -7.463      0.000      -1.211      -0.700
+==============================================================================
+Omnibus:                        3.647   Durbin-Watson:                   2.201
+Prob(Omnibus):                  0.161   Jarque-Bera (JB):                2.090
+Skew:                          -0.148   Prob(JB):                        0.352
+Kurtosis:                       2.238   Cond. No.                         278.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+其残差方差为0.07620185206369424
+其均方误差（MSE）为22.149433003477476
+以x2为因变量x1为自变量建立的线性模型结果为
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                     x2   R-squared:                       0.805
+Model:                            OLS   Adj. R-squared:                  0.802
+Method:                 Least Squares   F-statistic:                     300.5
+Date:                Sat, 06 Aug 2022   Prob (F-statistic):           1.37e-27
+Time:                        02:44:24   Log-Likelihood:                -29.838
+No. Observations:                  75   AIC:                             63.68
+Df Residuals:                      73   BIC:                             68.31
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     91.8175      0.238    385.675      0.000      91.343      92.292
+x1             1.5579      0.090     17.335      0.000       1.379       1.737
+==============================================================================
+Omnibus:                        3.058   Durbin-Watson:                   1.455
+Prob(Omnibus):                  0.217   Jarque-Bera (JB):                2.272
+Skew:                          -0.267   Prob(JB):                        0.321
+Kurtosis:                       2.336   Cond. No.                         17.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+其残差方差为0.13329782375833454
+其均方误差（MSE）为40.05465822118252
+以y2为因变量y3为自变量建立的二次模型为结果为
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                     y2   R-squared:                       0.779
+Model:                            OLS   Adj. R-squared:                  0.773
+Method:                 Least Squares   F-statistic:                     127.1
+Date:                Sat, 06 Aug 2022   Prob (F-statistic):           2.40e-24
+Time:                        02:44:24   Log-Likelihood:                -227.55
+No. Observations:                  75   AIC:                             461.1
+Df Residuals:                      72   BIC:                             468.1
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept    142.2371      7.263     19.584      0.000     127.758     156.716
+y3            -0.3442      0.035     -9.860      0.000      -0.414      -0.275
+I(y3 ** 2)     0.0003   4.23e-05      7.151      0.000       0.000       0.000
+==============================================================================
+Omnibus:                       65.842   Durbin-Watson:                   0.512
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              360.687
+Skew:                           2.739   Prob(JB):                     4.76e-79
+Kurtosis:                      12.242   Cond. No.                     2.54e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.54e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.
+其残差方差为26.335453053625123
+其均方误差（MSE）为3346.8479392093773
+以y2为因变量y3为自变量建立的线性模型为结果为
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                     y2   R-squared:                       0.622
+Model:                            OLS   Adj. R-squared:                  0.617
+Method:                 Least Squares   F-statistic:                     120.4
+Date:                Sat, 06 Aug 2022   Prob (F-statistic):           4.24e-17
+Time:                        02:44:24   Log-Likelihood:                -247.67
+No. Observations:                  75   AIC:                             499.3
+Df Residuals:                      73   BIC:                             504.0
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     95.2280      4.012     23.734      0.000      87.232     103.225
+y3            -0.0996      0.009    -10.971      0.000      -0.118      -0.082
+==============================================================================
+Omnibus:                       29.450   Durbin-Watson:                   0.277
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               45.825
+Skew:                           1.645   Prob(JB):                     1.12e-10
+Kurtosis:                       4.960   Cond. No.                     2.30e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.3e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+其残差方差为44.42515360624905
+其均方误差（MSE）为5346.812285023583
