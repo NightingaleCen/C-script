@@ -1,0 +1,11 @@
+     fun: -76.60477894544601
+     jac: array([-245.,   90.,    7.,    0.,    0.])
+ message: 'Optimization terminated successfully'
+    nfev: 188
+     nit: 25
+    njev: 25
+  status: 0
+ success: True
+       x: array([  1.90032685,  93.94515721,  86.77014686,  20.        ,
+       874.69411797])
+x[3]:接收距离, x[4]:热风速度, x[0]:厚度, x[1]:孔隙率, x[2]:缩回弹性率
